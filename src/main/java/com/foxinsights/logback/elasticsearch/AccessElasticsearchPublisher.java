@@ -9,8 +9,8 @@ import com.foxinsights.logback.elasticsearch.config.ElasticsearchProperties;
 import com.foxinsights.logback.elasticsearch.config.HttpRequestHeaders;
 import com.foxinsights.logback.elasticsearch.config.Property;
 import com.foxinsights.logback.elasticsearch.config.Settings;
-import com.foxinsights.logback.elasticsearch.util.AccessPropertyAndEncoder;
 import com.foxinsights.logback.elasticsearch.util.AbstractPropertyAndEncoder;
+import com.foxinsights.logback.elasticsearch.util.AccessPropertyAndEncoder;
 import com.foxinsights.logback.elasticsearch.util.ErrorReporter;
 
 public class AccessElasticsearchPublisher extends AbstractElasticsearchPublisher<IAccessEvent> {
