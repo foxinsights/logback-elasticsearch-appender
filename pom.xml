@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.internetitem</groupId>
+    <groupId>com.foxinsights</groupId>
     <artifactId>logback-elasticsearch-appender</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Logback Elasticsearch Appender</name>
-    <description>Send log events directly from Logback to Elasticsearch</description>
-    <url>https://github.com/internetitem/logback-elasticsearch-appender</url>
+    <description>Fork of logback-elasticsearch-appender by internetitem. Fixes some memory leaks.</description>
+    <url>https://github.com/foxinsights/logback-elasticsearch-appender</url>
 
     <licenses>
         <license>
@@ -20,14 +20,14 @@
     </licenses>
 
     <organization>
-        <name>Internet Item</name>
-        <url>https://internetitem.com/</url>
+        <name>FoxInsights GmbH</name>
+        <url>https://foxinsights.ai/</url>
     </organization>
 
     <scm>
-        <connection>scm:git:https://github.com/internetitem/logback-elasticsearch-appender.git</connection>
-        <developerConnection>scm:git:https://github.com/internetitem/logback-elasticsearch-appender.git</developerConnection>
-        <url>https://github.com/internetitem/logback-elasticsearch-appender</url>
+        <connection>scm:git:https://github.com/foxinsights/logback-elasticsearch-appender.git</connection>
+        <developerConnection>scm:git:https://github.com/foxinsights/logback-elasticsearch-appender.git</developerConnection>
+        <url>https://github.com/foxinsights/logback-elasticsearch-appender</url>
         <tag>HEAD</tag>
     </scm>
 
